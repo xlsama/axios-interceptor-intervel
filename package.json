@@ -1,0 +1,23 @@
+{
+  "name": "axios-interceptor-intervel",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite & npm run server",
+    "server": "node server.js",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@koa/cors": "^3.3.0",
+    "axios": "^0.27.2",
+    "koa": "^2.13.4",
+    "koa-router": "^10.1.1",
+    "vue": "^3.2.25",
+    "vue-axios": "^3.4.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "vite": "^2.9.9"
+  }
+}
